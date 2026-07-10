@@ -1,2 +1,11 @@
-# medscan-10jir
-Android WebView APK for https://pill-pointer.lovable.app/ — built by APK Forge
+# medscan
+
+Auto-generated Android WebView wrapper for **https://pill-pointer.lovable.app/**.
+
+Built by [APK Forge](https://lovable.dev). Every push runs GitHub Actions which produces `app-debug.apk` as both a workflow artifact and a GitHub Release asset.
+
+## Manual local build
+```
+gradle wrapper --gradle-version 8.7
+./gradlew assembleDebug
+```
